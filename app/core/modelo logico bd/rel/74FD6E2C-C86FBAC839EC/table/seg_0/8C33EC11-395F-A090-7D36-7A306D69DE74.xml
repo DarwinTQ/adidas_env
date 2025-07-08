@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C33EC11-395F-A090-7D36-7A306D69DE74" name="Repartidores">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>7C010C52-9EBB-270B-7283-6A4AA05397DF</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_repartidor" id="D62843ED-643D-4B7D-1B9F-0BFB0B0C9F69">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>3FAA45C5-8842-C24E-F1DA-73F9C8AF3AB6</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="245C41CE-BB1F-E7A6-8520-741ADBDD0BDC">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>5721F283-C6AD-43D5-724F-44489FBCF6A9</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="C5C74A59-6D6C-2513-C393-A1E8E1D1CB85">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>A39ACB3A-C819-451D-8817-779A6AD336DC</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vehiculo_placa" id="A1F056D1-8C9E-3FAD-DEAC-C9C26BD3D37A">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>DCC7A296-2F01-F664-79E5-316D17851953</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7939896-675F-2B38-2455-3926231F95AC" name="Repartidores_PK">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>D6495449-65BB-5C18-FC60-1A94A0EEEFE6</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D62843ED-643D-4B7D-1B9F-0BFB0B0C9F69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

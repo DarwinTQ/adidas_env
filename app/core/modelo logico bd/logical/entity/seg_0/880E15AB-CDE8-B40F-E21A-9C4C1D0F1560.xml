@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="880E15AB-CDE8-B40F-E21A-9C4C1D0F1560" name="Clientes">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:29:36 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<engineerTo>
+<item key="74FD6E2C-6554-BF6F-0E7A-C86FBAC839EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="18E4C877-2920-D01E-DBE1-83C5E3A8C52A">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:30:10 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<engineerTo>
+<item key="74FD6E2C-6554-BF6F-0E7A-C86FBAC839EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0543C01E-9CD3-5929-B456-73B4E68FFAD7">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:31:07 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<engineerTo>
+<item key="74FD6E2C-6554-BF6F-0E7A-C86FBAC839EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="CBD8DB4F-9DAA-7790-042C-971F027BF8EA">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:31:40 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<engineerTo>
+<item key="74FD6E2C-6554-BF6F-0E7A-C86FBAC839EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="9B30CD9A-CAEF-98D6-0CD7-02705F98C0C4">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:32:01 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<engineerTo>
+<item key="74FD6E2C-6554-BF6F-0E7A-C86FBAC839EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_registro" id="A0ABF5AA-BE04-34CE-160E-8E61962B13AD">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:32:45 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<engineerTo>
+<item key="74FD6E2C-6554-BF6F-0E7A-C86FBAC839EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D402237D-465A-BCCB-D82C-3D70C401CFD0" name="Clientes PK">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:31:04 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<engineerTo>
+<item key="74FD6E2C-6554-BF6F-0E7A-C86FBAC839EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18E4C877-2920-D01E-DBE1-83C5E3A8C52A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57CB36CE-A790-5DAF-C76A-8F757255D553" name="Productos">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>6E3AECCA-A70F-21C5-D7AC-D5D5AC08F595</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="77BA95F3-A141-7557-A274-FFA0615403CD">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>C3939E59-928A-CDF9-3924-FFE0C9838B72</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_producto" id="89CCD39E-1A4A-EF75-6C3E-39900BD09E89">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>275C9D6E-C1B1-F8DE-4D2E-41152FC765C7</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="F0F9655E-EF7F-D612-FCB8-7D7D6BD8B602">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>59508D0B-F1A4-7FEC-39F8-38DF9FB8AB7D</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="DA356F5E-14C4-8257-1890-ECA258AEF8CD">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>019988BB-536F-B81E-EEBA-DC9EED42D03C</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock" id="6FF0AF35-9FF0-D371-C348-0908202DB569">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>8A956773-E2B6-6ABE-887A-70B1179330FC</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7278EFC1-B66E-89E0-5514-B2317E3537DA" name="Productos_PK">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>74CFD7B8-2D68-C123-1708-5125829A8B5C</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77BA95F3-A141-7557-A274-FFA0615403CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Clientes y Pedidos " directorySegmentName="seg_0" id="AE72D93F-6DE2-F1A8-31B0-EA5201522DCF">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:45:03 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<engineerTo>
+<item key="74FD6E2C-6554-BF6F-0E7A-C86FBAC839EC" value="true"/>
+</engineerTo>
+<sourcePk>D402237D-465A-BCCB-D82C-3D70C401CFD0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>880E15AB-CDE8-B40F-E21A-9C4C1D0F1560</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92EC90B2-4099-CE0A-27FC-6539CB80C24E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C2191A1-79CD-2B50-D00A-ECBF5B5F8134" name="Envios">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>2771FCEE-E6F3-BA47-3AC8-C514BCA95860</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_envio" id="86002415-A32A-329C-C500-1417D81D69B0">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>08925546-346D-7964-C8FD-C6DCBE9F1289</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_despacho" id="C5C69054-DBBC-8BFA-181E-FF71BA44311C">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>1E4D91AC-ED89-ADFE-3F87-9D47B13B0A17</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega_estimada" id="DEE6D005-7FCE-8BF9-C5EF-20A8E68EC885">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>0B40A771-E880-88C5-147A-47277E379101</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega_real" id="19C75FF8-EB69-D0B5-A051-5A4113F42BB2">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>D92BDCA0-14A9-54EE-849C-B5E12FA2226C</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_envio" id="E5D6F073-ACF4-7F32-B3B7-929AE632C457">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>51FC3347-C1C6-8F22-8852-9E609B45D9D3</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_id_pedido" id="11F33AF9-437D-2C7F-4316-06BB0FD29FCB">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>CFE2BCB9-2711-B459-823D-13574E229504</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65FFC33A-3836-4770-32D7-01B72CDF5A2D" referredColumn="D11FC020-CA96-28F0-C548-2FF0A79929A6"/>
+</associations>
+</Column>
+<Column name="Repartidores_id_repartidor" id="831C98F5-7F36-0243-CD5A-105C3E8D325A">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>46A93751-5B00-60C1-5144-A6333F7C92F1</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D4617A3-8E2B-D404-5CAF-48DB1BB01429" referredColumn="D62843ED-643D-4B7D-1B9F-0BFB0B0C9F69"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5916587F-4658-5E1C-AE89-45F07D4D0546" name="Envios_PK">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>582E6C45-8D0D-1D86-D31C-27EF572758E8</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86002415-A32A-329C-C500-1417D81D69B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC087E2A-B33A-DDD9-6789-118039608072" name="Envios__IDX">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>72D13A9C-4AD5-A800-532C-9AC0FAA3C440</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="11F33AF9-437D-2C7F-4316-06BB0FD29FCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="469A97EF-20FC-8F69-4BD3-77B4C8E64D8A" name="Envios_Pedidos_FK">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>72D13A9C-4AD5-A800-532C-9AC0FAA3C440</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11F33AF9-437D-2C7F-4316-06BB0FD29FCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12B51F03-2B42-BAC7-18D4-40281F574075" name="Envios_Repartidores_FK">
+<createdBy>darwi</createdBy>
+<createdTime>2025-07-08 03:51:15 UTC</createdTime>
+<generatorID>38FB27D3-6766-E8D6-C9BC-869E5679FA11</generatorID>
+<ownerDesignName>modelo logico bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="831C98F5-7F36-0243-CD5A-105C3E8D325A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
