@@ -1,0 +1,177 @@
+/* ---- VARIABLES Y ESTILOS GLOBALES ---- */
+:root {
+    --adidas-black: #212121;
+    --adidas-white: #FFFFFF;
+    --adidas-blue: #007bff;
+    --light-gray: #f4f4f4;
+    --medium-gray: #cccccc;
+    --font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--light-gray);
+    color: var(--adidas-black);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* ---- HEADER ---- */
+.main-header {
+    background-color: var(--adidas-white);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-main {
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.logo-sub {
+    font-size: 0.8rem;
+    color: #666;
+    display: block;
+    margin-top: -5px;
+}
+
+.main-nav .nav-link {
+    text-decoration: none;
+    color: var(--adidas-black);
+    margin-left: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.main-nav .nav-link.active,
+.main-nav .nav-link:hover {
+    color: var(--adidas-blue);
+    border-bottom: 3px solid var(--adidas-blue);
+}
+
+
+/* ---- CONTENIDO PRINCIPAL ---- */
+main h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.pedidos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.pedido-card {
+    background-color: var(--adidas-white);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.pedido-header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.pedido-header h2 {
+    font-size: 1.1rem;
+    color: var(--adidas-black);
+}
+
+.pedido-header p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.pedido-body {
+    padding: 1.5rem 1rem;
+    flex-grow: 1;
+}
+
+.producto-nombre {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.pedido-footer {
+    padding: 1rem;
+    background-color: var(--light-gray);
+    text-align: right;
+}
+
+.btn-details {
+    background-color: var(--adidas-blue);
+    color: var(--adidas-white);
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.btn-details:hover {
+    background-color: #0056b3;
+}
+
+
+/* ---- BARRA DE ESTADO ---- */
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 0.8rem;
+    color: var(--medium-gray);
+}
+.status-bar::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    right: 15%;
+    height: 3px;
+    background-color: var(--light-gray);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.status-step {
+    position: relative;
+    z-index: 2;
+    background-color: var(--light-gray);
+    padding: 0 5px;
+    font-weight: 700;
+}
+.status-step.active {
+    color: var(--adidas-blue);
+}
+.status-step.completed {
+    color: var(--adidas-black);
+}
+
+/* ---- FOOTER ---- */
+.main-footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    color: #666;
+    font-size: 0.9rem;
+}
